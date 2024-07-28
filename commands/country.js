@@ -17,7 +17,6 @@ module.exports = {
 ➥ ${prefix}country PH
 
 Have fun using it, enjoy! ❤️
-Bot Developer: joshua Apostol
         `, event.threadID);
         return;
       }
@@ -51,8 +50,7 @@ Bot Developer: joshua Apostol
 - **Google Maps:** [View Map](${maps.googleMaps})\n\n
 - **OpenStreetMaps:** [View Map](${maps.openStreetMaps})
 
-Have fun using it, enjoy! ❤️
-Bot Developer: joshua Apostol
+Have fun using it, enjoy!
             `;
 
             api.sendMessage(countryInfo, event.threadID);
