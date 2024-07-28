@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 module.exports = {
-  name: 'aiv2',
+  name: 'ai2',
   description: 'Interact with AI (Artificial Intelligence)',
   usage: '[nashPrefix]ai [prompt]',
   nashPrefix: false,
