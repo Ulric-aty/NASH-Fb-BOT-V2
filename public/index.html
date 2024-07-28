@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NASH BOT</title>
+  <title>AUTOMATED FB BOT | ULRIC ATAYI</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
-  <style>
+
+</head>
+<style>
     body {
       padding: 20px;
-      background-color: #0e0e0e;
+      background-color: #1a0128;
       font-family: 'Poppins', sans-serif;
       color: #fff;
     }
@@ -16,28 +18,15 @@
     .container {
       max-width: 600px;
       margin: 0 auto;
-      background-color: rgba(26, 26, 26, 0.8);
+      background-color: #1a0128;
       border-radius: 10px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.23);
       padding: 40px;
       margin-top: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
       position: relative;
+      border: 1px solid violet;
     }
-
-    h1, h2 {
-      color: #fff;
-      text-align: center;
-    }
-
-    .version {
-      color: red;
-      font-size: 0.8rem;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-    }
-
+    
     label {
       color: #ccc;
       font-weight: 600;
@@ -80,9 +69,9 @@
     }
 
     .btn-primary {
-      background-color: #808080;
+      background-color: gray;
       border: none;
-      color: #FF0000;
+      color: white;
       padding: 12px 24px;
       font-size: 1rem;
       cursor: pointer;
@@ -102,9 +91,9 @@
       padding: 10px;
       text-align: center;
       font-size: 16px;
-      color: red;
+      color: violet;
       margin-top: 50px;
-      border-top: 1px solid red;
+      border-top: 1px solid violet;
       position: fixed;
       bottom: 0;
       left: 0;
@@ -206,56 +195,22 @@
         padding: 20px;
       }
     }
-  </style>
-</head>
-  <a href="guide.html" style="
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #808080;
-    border: 2px solid transparent;
-    transition: color 0.3s, background-color 0.3s, border-color 0.3s, transform 0.3s;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-" onmouseover="this.style.color='#000000'; this.style.backgroundColor='white'; this.style.borderColor='#808070'; this.style.transform='scale(1.05)'; this.style.animation='pulse 1s infinite';" onmouseout="this.style.color='white'; this.style.backgroundColor='#202023'; this.style.borderColor='transparent'; this.style.transform='scale(1)'; this.style.animation='none';">
-    <i class="fas fa-cogs" style="margin-right: 10px;"></i> Guide Step by step
-    <style>
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.1);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
-    </style>
-</a>
+</style>
 <body>
+  <div class="container">
+    <center><h3>AUTOMATED FB BOT</h3></center>
+    </div>
   <main class="container">
-    <h1>Welcome to the NASHBOT</h1>
-    <span class="version">version 2.1</span>
     <div class="form-container">
       <form id="loginForm" class="login-form">
-        <label for="botState">Bot State:</label>
         <textarea id="botState" class="centered-textarea" rows="10" placeholder="Paste your facebook appstate here..." required></textarea>
-        
-        <label for="prefix">Prefix: example: /</label>
-        <input type="text" id="prefix" class="centered-input" placeholder="Enter command prefix..." required>
-        
+        <input type="text" id="prefix" class="centered-input" placeholder="Enter bot prefix..." required>
+        <center>
           <button type="submit" class="btn-primary">Login</button>
     </div>
 
     <button id="openModal" class="btn-primary" style="margin-top: 20px;">Show Commands & Active Sessions</button>
-
+</center>
     <div id="commandModal" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
@@ -274,7 +229,7 @@
   </main>
 
   <footer class="footer">
-    <p>&copy; 2024 Joshua Apostol. All rights reserved.</p>
+    <p>&copy; 2024 Powered by Joshua Apostol. Created by Ulric Atayi</p>
   </footer>
 
   <script>
