@@ -15,7 +15,7 @@ module.exports = {
             (i) => i.userFbId === api.getCurrentUserID()
           )) {
           api.changeNickname(
-            `[ ${prefix} ]: NashBoT`,
+            `[ ${prefix} ]: GROUP CHAT BoT`,
             threadID,
             api.getCurrentUserID()
           );
